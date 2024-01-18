@@ -5,5 +5,27 @@
 }
 
 .header {
-    background-color: aqua;
+    background-color: orange;
+    padding: 10px;
 }
+header section{
+    display:flex;
+    justify-content: center;
+}
+ header .logo{
+    background-color: yellow;
+    width: 200px;
+ }
+
+ header .menu{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(113, 168, 113);
+    width: 600px;
+ }
+
+ header .login{
+    display:flex;
+    justify-content: flex-end;
+    background-color: red;
+ }
