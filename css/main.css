@@ -16,6 +16,7 @@
   header .logo{
     background-color: rgb(218 165 33);
     width: 200px;
+    border:dashed
   }
   
   header .menu{
@@ -32,7 +33,7 @@
     width: 200px;
   }
   
-  /* prima parte sotto lheader */
+  
   .container-top{
     background-color: rgb(0 0 139);
     display: flex;
@@ -48,9 +49,7 @@
     background-color: rgb(204 111 204);
     margin: 0 21%;
   }
-   /* fine prima parte sotto l header */
-  
-   /* inizio seconda parte */
+   
   
   .box{
     width: 80%;
@@ -76,9 +75,7 @@
     width: 40%;
     height: 300px;
   }
-  /* fine seconda parte */
   
-  /* container con lo sfondo grigio */
   
   .container-grey{
     background-color: grey;
@@ -97,8 +94,8 @@
   }
   
   .bottom{
-    background-color: rgb(35 139 33);
-    margin: 0 14%;
+    background-color: gray;
+    margin: 210 156%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,6 +103,7 @@
   }
   
   .bottom img{
+    background-color: green;
     width: 600px;
     height: 500px;
   
@@ -139,7 +137,7 @@
     width: 30%;
   }
   
-  colonna-piccola{
+  .colonna-piccola{
     background-color: rgb(240 128 128);
     width: 17.5%;
   }
